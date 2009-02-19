@@ -24,13 +24,16 @@ works.
 
 === Get started ===
 
-1. Install Erlang
-2. Get sources
-3. Run `erl -make`
-4. Go to ebin folder
-5. Run `erl` and type next commands:
+1. Install Erlang (http://erlang.org/download.html)
+2. Install Git (for Windows http://code.google.com/p/msysgit/, for Ubuntu Desktop sudo apt-get install git-core)
+3. Get sources via Git (git clone git://github.com/SneakerXZ/wower.git) 
+4. Go to directory with wower source
+5. Make a directory ebin
+6. Run `erl -make` 
+7. Go to ebin folder
+8. Run `erl` and type next commands:
    > helper:install(). // only if you want to recreate DB
-   > helper:start().   // this will start realm and logon servers
+   > helper:start().   // this will start realm and logon serversd logon servers
 
 You must have correct(>= 3.0.8) DBC files in ebin/dbc folder to
 start server properly.
